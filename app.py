@@ -119,9 +119,6 @@ def server(input, output, session):
 def create_hyperlink(text, href, target="_blank"):
     return f'<a href="{href}" target="{target}">{text}</a>'
 
-def create_hyperlink(text, href, target="_blank"):
-    return f'<a href="{href}" target="{target}">{text}</a>'
-
 # Usage
 hyperlink = create_hyperlink("Cintel-04 Local", href="https://github.com/kersha0530/cintel-04-local", target="_blank")
 print(hyperlink)
